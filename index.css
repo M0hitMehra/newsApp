@@ -1,0 +1,39 @@
+.navContainer{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+
+.logo{
+    grid-column: 1 / span 1;
+    ;
+}
+
+.navLinks{
+ grid-column: 2 /span 2;
+ display: flex;
+    justify-content: space-evenly
+}
+
+.blogs{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem;
+    gap: 50px;
+}
+
+.blogImg{
+ max-width: 400px;
+ max-width: 400px;
+}
+
+.blogHead{
+    max-width: 400px;
+    min-width: 400px;  
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.blogContent{
+max-width: 400px;
+min-width: 400px;
+}
